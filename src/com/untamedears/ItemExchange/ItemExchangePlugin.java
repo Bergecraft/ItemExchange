@@ -44,7 +44,7 @@ public class ItemExchangePlugin extends JavaPlugin{
 	public static final String INPUT_NAME="ItemExchange Input";
 	public static final String OUTPUT_NAME="ItemExchange Output";
 	public static final ItemStack ITEM_RULE_ITEMSTACK=new ItemStack(Material.STONE_BUTTON,1);
-	public static final String VERSION="v0.1";
+	public static final String VERSION="v0.2";
 	
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args){
 		return commandHandler.dispatch(sender, label, args);
